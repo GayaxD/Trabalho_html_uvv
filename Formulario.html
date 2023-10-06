@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+    <form action="formulario_servico" method="post"></form>
+    <label for="Nome Completo">Nome:</label><br>
+    <input type="text" name="Nome Completo" id="Nome" required>
+    <p></p>
+    <p></p>
+    <label for="Email">Email:</label><br>
+    <input type="email" id="Email" name="Email">
+    <p></p>
+    <label for="Telefone Contato">Telefone:</label><br>
+    <Input type="number" id="Telefone" name="Telefone Contato"  required>
+        <div>
+        <label>Pessoa fisica ou juridica?</label>
+        
+        <label>
+            <input type="radio" name="PFJ" value="Pfisica">Pessoa fisica
+        </label>
+
+        <label >
+            <input type="radio" name="PFJ" value="PJuridica">Pessoa Juridica
+        </label>
+        </div>
+
+        <div>
+            <h4>Explique Sua nessecidade!</h4>
+            <label for="Explicacao"></label>
+            <textarea name="Explicacao" id="Explicacao" cols="30" rows="10" required></textarea>
+        </div>
+        <label for="Processo acelerado">Deseja uma montagem expressa?</label>Taxa adicional de R$100
+        <input type="checkbox" name="Processo acelerado" id="P acelerado" required>Sim
+        <input type="checkbox" id="P acelerado" required>Nao
+        <div>
+            <button type="submit" class="botao">Enviar Formulario!</button>
+        </div>
+    </fieldset>
+    <link rel="stylesheet" href="formulario.css">
+    <a href="Home.html" class="botao" target="_self">Voltar para pagina inicial</a>
+</body>
+</html>

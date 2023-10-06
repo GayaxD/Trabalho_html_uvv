@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding-block: 0;
+}
+body{
+    background-color: aliceblue;
+    font-family: sans-serif;
+    color: #380861;
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 34%;
+    justify-content: center;
+}
+
+#titulo{
+    font-family: sans-serif;
+    color: #380861;
+    margin: 10%;
+}
+

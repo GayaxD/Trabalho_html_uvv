@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #113946;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #EAD7BB;
+}
+
+div {
+    background-color: #EAD7BB;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+ul, ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+a.Botao {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-decoration-line: underline;
+}

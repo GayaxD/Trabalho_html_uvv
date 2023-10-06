@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image:  url(Github.css\ foto.gif);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #000000;
+}
+
+a {
+    text-decoration: none;
+    color: #743bfa;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.botao-link {
+    display: inline-block;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 1px #007bff;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.botao-link:hover {
+    background-color: #e70000;
+    color: #fff;
+}
